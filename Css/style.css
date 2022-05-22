@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  margin-top: 23px;
+  height: 70px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: var(--font1);
+}
+.navigation:hover {
+  border: 1px solid gray;
+  background: linear-gradient(to left, #03395b, white);
+  padding: 0 20px;
+  transition: all 0.3s;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+}
+.logo {
+  background: linear-gradient(to right, white, green, #03395b);
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+
+.left {
+  display: flex;
+}
+
+.left ul {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+/* we target to li */
+.left ul li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.left ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--font2);
+}
+.left ul li a:hover {
+  background-color: rgb(231, 231, 231);
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px;
+}
+.form-input {
+  padding: 0px 0px 0px 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 0 10px;
+  font-family: var(--font1);
+  font-size: 1rem;
+}
+.form-input:focus {
+  background-color: var(--hover);
+  padding: 0px 10px 0px 40px;
+  border-radius: 1px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.btn {
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-family: var(--font1);
+}
+.btn:hover {
+  background-color: var(--hover);
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.content {
+  height: 95px;
+  display: flex;
+  font-family: var(--font3);
+  height: 100%;
+  position: relative;
+  background-image: url("../img/article1.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 20px;
+  /* background-attachment: fixed; */
+  /* background-size: contain; */
+  /* background-size: 100% 100%; */
+}
+
+.content:hover {
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: gray;
+  transition: all 0.7s;
+  padding: 0px 32px;
+  color: white;
+  background-image: none;
+  font-size: 2rem;
+  /* text-overflow: ellipsis; */
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 50px;
+  overflow: hidden;
+}
+.content-left p {
+  font-size: 1.3rem;
+}
+.content-right {
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.content-right img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.content-right img:hover {
+  transform: translateX(30px) rotate(360deg);
+  transition: all 0.5s;
+}
+.home-articles {
+  padding-top: 12px;
+  position: relative;
+}
+.year-box {
+  position: absolute;
+  display: flex;
+  /* width: 0px; */
+  /* height: 30px; */
+  /* background-color: red; */
+  top: 20px;
+  right: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.year-box input {
+  padding: 20px;
+  margin: 7px;
+}
+
+.home-article {
+  /* background-color: red; */
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+.home-article-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: rgba(115, 236, 255, 0.734);
+}
+.home-article:hover {
+  background-color: rgb(3, 57, 91);
+  border: 1px solid black;
+  padding: 30px;
+  transition: all 0.3s;
+  border-radius: 5px;
+  color: white;
+}
+.home-article img {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+.home-article img:hover {
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: all 0.3s;
+  width: 350px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 0px 30px;
+}
+.footer {
+  height: 50px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  list-style: none;
+  background: hsl(192, 100%, 10%);
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(228, 17, 55);
+  padding: 5px;
+}
+.footer a:hover {
+  border: 1px solid black;
+  background-color: gray;
+  transition: all 0.3s;
+  font-size: 18px;
+  color: white;
+}

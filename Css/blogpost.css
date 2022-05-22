@@ -1,0 +1,25 @@
+.post-img {
+  height: 405px;
+  overflow: hidden;
+  margin-top: 14px;
+  margin-bottom: 2px;
+}
+.post-img img {
+  width: 100%;
+}
+.home-article {
+  flex-direction: column;
+  margin: 13px;
+}
+.row {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  overflow: scroll;
+
+  /* flex-direction: column; */
+}
+
+.center {
+  text-align: center;
+}

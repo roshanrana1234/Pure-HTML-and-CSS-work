@@ -1,0 +1,62 @@
+.contact-content {
+  height: 155px;
+  display: blo;
+  font-family: var(--font3);
+  height: 435px;
+  position: relative;
+  background-image: url("../img/article1.jpg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.contact-content:hover {
+  border: 1px solid gray;
+  transition: all 0.7s;
+  color: white;
+  font-size: 1.2rem;
+  background: hsl(204, 100%, 15%);
+  top: 0;
+  height: 76.8vh;
+}
+.home-articles {
+  margin: 35px;
+}
+.form-box input {
+  width: 50vh;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-family: var(--font2);
+}
+.form-box input:hover {
+  width: 50vh;
+  height: 20px;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-size: 1.1rem;
+}
+
+.form-box textarea {
+  margin: 5px;
+  width: 50vh;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.form-box button {
+  margin: 5px;
+}
+.form-box textarea:hover {
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+  transition: all 0.3s;
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+.form-box button:hover {
+  background-color: rgb(164, 0, 36);
+  border-radius: 3px;
+}
